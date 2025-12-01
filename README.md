@@ -30,6 +30,5 @@ bash 02_get_primary_assemblies.sh "/scratch/pawsey0964/lhuet/hic-analysis"
 ```
 **Step 4.** Update the loop script for your samples and submit the script
 ```
-**example** 
 bash 04_loop.sh
 ```
