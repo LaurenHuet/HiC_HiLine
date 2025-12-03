@@ -1,6 +1,6 @@
 # hic-analysis
 
-This page explains how to run the hic analysis for the high quality reference genomes.
+This page explains how to run the HiLine tool to analyise the quality of the HiC data for scaffolding reference genome assemblies.
 
 **Step 1.** Run the 01_download.sh script, pass in the RUNID and RUNDIR as arguments. 
 
@@ -36,4 +36,8 @@ bash 04_loop.sh
 1. Extracts the 30 largest contigs from the hifi assembly file
 2. Skims the HiC reads to 1x
 3. Aligns the skimmed reads to the 30 largest contigs and converts to cram file
-4. runs HiLine on cram file and 30 largest contigs, producing a stats directory with the results. 
+4. runs HiLine on cram file and 30 largest contigs, producing a stats directory with the results.
+
+**Step 5.** Download the results and pass onto the lab
+
+Download the output stats directory from the finished run directly to teams and inform the Lab results are ready to be viewed.
