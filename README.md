@@ -1,6 +1,6 @@
 # hic-analysis
 
-This page explains how to run the HiLine tool to analyise the quality of the HiC data for scaffolding reference genome assemblies.
+This page explains how to run the HiLine tool to analyse the quality of the HiC data for scaffolding reference genome assemblies.
 
 **Step 1.** Run the 01_download.sh script, pass in the RUNID and RUNDIR as arguments. 
 
